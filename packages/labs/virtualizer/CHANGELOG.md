@@ -1,5 +1,23 @@
 # @lit-labs/virtualizer
 
+## 2.0.0
+
+### Major Changes
+
+- [#3624](https://github.com/lit/lit/pull/3624) [`e51ff229`](https://github.com/lit/lit/commit/e51ff229843aaac22805bc0a39bf5e6db6862a5c) - ResizeObserver polyfill is no longer automatically loaded. If you target older browsers without native ResizeObserver support, see the docs for guidance on manual polyfill loading.
+
+### Minor Changes
+
+- [#3609](https://github.com/lit/lit/pull/3609) [`54046b0b`](https://github.com/lit/lit/commit/54046b0bbea4ff161567a92328700391efa35ff6) - RangeChangedEvent and VisibilityChangedEvent both no longer bubble up. Listeners for these events must be placed on the lit-virtualizer or virtualize directive's host element.
+
+### Patch Changes
+
+- [#3606](https://github.com/lit/lit/pull/3606) [`441baca2`](https://github.com/lit/lit/commit/441baca292f7e7df2c2a2a2453b027b3ade0a8bc) - Trigger reflow after padding is set
+
+- [#3393](https://github.com/lit/lit/pull/3393) [`6fe882f7`](https://github.com/lit/lit/commit/6fe882f7af746ddab6e98bca3d2690222095423d) - Fix spelling identified by the [check-spelling action](https://github.com/marketplace/actions/check-spelling).
+
+- [#3624](https://github.com/lit/lit/pull/3624) [`e51ff229`](https://github.com/lit/lit/commit/e51ff229843aaac22805bc0a39bf5e6db6862a5c) - Additional fix for [#3481: Error when immediately re-rendering](https://github.com/lit/lit/issues/3481); initialization code significantly simplified
+
 ## 1.0.1
 
 ### Patch Changes

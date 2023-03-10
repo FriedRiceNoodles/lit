@@ -1,5 +1,23 @@
 # @lit-labs/context
 
+## 0.3.0
+
+### Minor Changes
+
+- [#3632](https://github.com/lit/lit/pull/3632) [`2fa009f3`](https://github.com/lit/lit/commit/2fa009f327017bef9fdcedca4acac8820f33166a) - Add options object to ContextConsumer and ContextProvider constructors. Deprecate positional forms.
+
+### Patch Changes
+
+- [#3691](https://github.com/lit/lit/pull/3691) [`4fa03114`](https://github.com/lit/lit/commit/4fa031148bbf3954118e83df4106c711da35d186) - Work around a common bug in compilers that target ES5 when extending built in classes like Event.
+
+- [#3628](https://github.com/lit/lit/pull/3628) [`61ce8148`](https://github.com/lit/lit/commit/61ce8148e3272a21a4cb009537c2db761b21a9df) - Add type parameter for key to createContext()
+
+- [#3451](https://github.com/lit/lit/pull/3451) [`7c93499c`](https://github.com/lit/lit/commit/7c93499ccdfc493df9397163e552356e64bfd2c3) - Make ContextRoot deduplicate context requests by element and callback identity
+
+- [#3393](https://github.com/lit/lit/pull/3393) [`6fe882f7`](https://github.com/lit/lit/commit/6fe882f7af746ddab6e98bca3d2690222095423d) - Fix spelling identified by the [check-spelling action](https://github.com/marketplace/actions/check-spelling).
+
+- [#3698](https://github.com/lit/lit/pull/3698) [`b9c27c51`](https://github.com/lit/lit/commit/b9c27c5156ecdd752380c725fec17dab1f3fb704) - Explicitly annotate the this value of a set function. This makes some tooling happier.
+
 ## 0.2.0
 
 ### Minor Changes

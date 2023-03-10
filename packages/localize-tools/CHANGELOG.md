@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.8
+
+### Patch Changes
+
+- [#3674](https://github.com/lit/lit/pull/3674) [`52ab0872`](https://github.com/lit/lit/commit/52ab087210ad76f9509028f98a850706bb32f302) - Fix incorrect extraction of html embedded within html
+
 ## 0.6.7
 
 ### Patch Changes

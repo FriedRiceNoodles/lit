@@ -1,5 +1,11 @@
 # @lit-internal/benchmarks
 
+## 1.0.3
+
+### Patch Changes
+
+- [#3393](https://github.com/lit/lit/pull/3393) [`6fe882f7`](https://github.com/lit/lit/commit/6fe882f7af746ddab6e98bca3d2690222095423d) - Fix spelling identified by the [check-spelling action](https://github.com/marketplace/actions/check-spelling).
+
 ## 1.0.2
 
 ### Patch Changes

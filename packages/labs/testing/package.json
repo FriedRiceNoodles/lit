@@ -1,6 +1,6 @@
 {
   "name": "@lit-labs/testing",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publishConfig": {
     "access": "public"
   },
@@ -104,7 +104,7 @@
     "lib/**/*.{d.ts,d.ts.map,js,js.map}"
   ],
   "dependencies": {
-    "@lit-labs/ssr": "^3.0.0",
+    "@lit-labs/ssr": "^3.1.0",
     "@web/test-runner-commands": "^0.6.1",
     "@webcomponents/template-shadowroot": "^0.1.0",
     "lit": "^2.6.0"

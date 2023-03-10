@@ -1,5 +1,15 @@
 # Change Log
 
+## 2.1.0
+
+### Minor Changes
+
+- [#3660](https://github.com/lit/lit/pull/3660) [`65df149f`](https://github.com/lit/lit/commit/65df149f761ff4052beb064386bd59f568a87154) - Fix the change-in-update warning from Tasks by delaying the initial host update
+
+### Patch Changes
+
+- [#3393](https://github.com/lit/lit/pull/3393) [`6fe882f7`](https://github.com/lit/lit/commit/6fe882f7af746ddab6e98bca3d2690222095423d) - Fix spelling identified by the [check-spelling action](https://github.com/marketplace/actions/check-spelling).
+
 ## 2.0.0
 
 ### Major Changes
